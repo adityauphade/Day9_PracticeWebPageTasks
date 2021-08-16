@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+        }
+
+        p{
+            padding: 10px;
+            padding-top: 0px;
+        }
+
+        .Nav{
+            flex: 1;
+            background-color: gainsboro;
+        }
+
+        .col2{
+            flex: 5;
+            flex-flow: column wrap;
+        }
+
+        .Head{
+            display: flex;
+            background-color: chartreuse;
+            height: 200px;
+        }
+        
+        .Mid{
+            display: flex;
+            height: 400px;
+
+        }
+        
+        .Article{
+            flex: 3;
+            background-color: white;
+        }
+        
+        .Aside{
+            flex: 1;
+            background-color: burlywood;
+        }
+        
+        .Footer{
+            display: flex;
+            background-color: chartreuse;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Nav">
+        <p>Nav</p>
+    </div>
+    <div class="col2">
+        <div class = Head>
+            <p>Header</p>
+        </div>
+        <div class = "Mid">
+            <div class = "Article">
+                <p>Article</p>
+            </div>
+            <div class="Aside">
+                <p>Aside</p>
+            </div>
+        </div>
+        <div class="Footer">
+            <p>Footer</p>
+        </div>
+    </div>
+</body>
+</html>
